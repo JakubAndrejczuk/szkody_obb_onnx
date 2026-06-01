@@ -1,5 +1,7 @@
 # Model detekcji szkód w młodnikach i uprawach leśnych
 
+<img width="3507" height="2480" alt="model_exp" src="https://github.com/user-attachments/assets/0679044b-722e-4f79-b643-fd74e47bc6ae" />
+
 Model **ONNX** do detekcji szkód w młodnikach i uprawach leśnych spowodowanych przez ssaki. Został przygotowany do użycia we wtyczce **Deepness** w **QGIS**.
 
 Model oparto na architekturze **YOLO11s**. Dane treningowe pochodziły ze zobrazowań **RGB** wykonanych z **BSP** o oryginalnej rozdzielczości **2,5 cm**. Na potrzeby trenowania i generowania modelu rozdzielczość zmniejszono do **10 cm**.
@@ -24,7 +26,6 @@ Model oparto na architekturze **YOLO11s**. Dane treningowe pochodziły ze zobraz
 Model przygotowano z użyciem:
 
 - **QGIS**
-- **Deepness**
 - **Roboflow**
 - **Ultralytics**
 
@@ -32,10 +33,8 @@ Proces opracowano na podstawie tutoriala:
 https://youtu.be/HIsheKG-lE4?si=y2kkUdgx6CLOGhUD
 
 ## Licencja
+**GNU Affero General Public License v3.0**.
 
-Rekomendowana licencja: **GNU Affero General Public License v3.0**.
-
-Licencja została dobrana ze względu na wykorzystanie ekosystemu **Ultralytics YOLO**. W przypadku użycia komercyjnego należy zweryfikować aktualne warunki licencji Ultralytics.
 
 ## Uwagi
 
