@@ -1,6 +1,6 @@
 # Model detekcji szkód w młodnikach i uprawach leśnych
 
-Model **ONNX** do detekcji szkód w młodnikach i uprawach leśnych spowodowanych przez ssaki. Został przygotowany do użycia we wtyczce **Deepness** w **QGIS**.
+Model **ONNX** do detekcji szkód w młodnikach i uprawach leśnych spowodowanych przez ssaki przygotowany do użycia we wtyczce **Deepness** w **QGIS**.
 
 Model oparto na architekturze **YOLO11s**. Dane treningowe pochodziły ze zobrazowań **RGB** wykonanych z **BSP** o oryginalnej rozdzielczości **2,5 cm**. Na potrzeby trenowania i generowania modelu rozdzielczość zmniejszono do **10 cm**.
 
